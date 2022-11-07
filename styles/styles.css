@@ -1,0 +1,100 @@
+@import url('./fonts.css');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header__logo {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.nav__list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 38px;
+}
+
+.nav__link:hover{
+    color: #2e2c2c;
+}
+
+.nav__link {
+    font-family: 'Roboto-Regular';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #8c8a8a;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.s2__desc {
+    width: 730px;
+    padding: 50px 40px;
+    background: #F0F0F0;
+}
+
+.s2-title {
+    font-family: 'Roboto-Bold';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    color: #4581B7;
+    margin-bottom: 25px;
+}
+
+.s2-text {
+    font-family: 'Roboto-Regular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #808080;
+}
+
+.s2__contacts {
+    width: 350px;
+    padding: 50px 40px;
+    background: #F0F0F0;
+}
+
+.s2__df {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.footer__df {
+    background: #F0F0F0;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto-Regular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #808080;
+    gap: 10px;
+}
